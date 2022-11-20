@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>NS cards</title>
+        <link rel="shortcut icon" href="assets/cards.ico" type="image/x-icon" />
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta charset="utf-8">
+        <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+
+    <body>
+
+        <div class="header">
+            <div class="headerColumn" id="left">
+                <p>If you use the tool,<br>Please, drop a telegram<br>to <a href="https://nationstates.net/nation=mackiland" target="_blank">Mackiland</a></p>
+            </div>
+
+            <div class="headerColumn" id="title">
+                <h1><a href="https://makrine.github.io/NScards/">NationStates Cards</a></h1>
+                <h5><a href="https://makrine.github.io/NScards/">Find Cards with less or equal the given owners</a></h1>
+                <div class="nationInput">
+                    <label for="agent">Enter your user agent</label>
+                    <br>
+                    <input type="text" id="agent" name="agent" required size="10"><br>
+                    <label for="name">Enter your nation name</label>
+                    <br>
+                    <input type="text" id="nation" name="nation" required size="10"><br>
+                    <label for="maxowners">Enter max owners</label>
+                    <br>
+                    <input type="number" id="maxowners" name="maxowners" required size="10"><br>
+                    <button id="getData" onclick="getData()">Get Data</button>
+                    <p id="nationExists"></p>
+
+                </div>
+            </div> 
+
+            <div class="headerColumn" id="right">
+                <p>v1.0<br><br><a href="https://github.com/Makrine/NScards" target="_blank">source code</a><br><br>
+                    <!-- <a href="https://forum.nationstates.net/viewtopic.php?f=15&t=511261&p=39077240&sid=5d7dfd2dd4b15c6639c67c3471f15008">see the forum
+                    </a></p> -->
+            </div>
+
+        </div>
+      
+        <div class="btnsProc">
+            <p id="info">TEXT
+            </p>
+            <p id="processed"></p>
+
+        </div>
+        <br>
+        <div id="myTable"></div>
+
+
+    </body>
+
+</html>

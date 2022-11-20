@@ -1,0 +1,101 @@
+/******************************************************************************\
+*     Copyright 2021 Makto Maktavish                                           *
+*                                                                              *
+*    Licensed under the Apache License, Version 2.0 (the "License");           *
+*    you may not use this file except in compliance with the License.          *
+*    You may obtain a copy of the License at                                   *
+*                                                                              *
+*        http://www.apache.org/licenses/LICENSE-2.0                            *
+*                                                                              *
+*    Unless required by applicable law or agreed to in writing, software       *
+*    distributed under the License is distributed on an "AS IS" BASIS,         *
+*    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  *
+*    See the License for the specific language governing permissions and       *
+*    limitations under the License.                                            *
+\******************************************************************************/
+
+body {
+    background-color:#96D1CD;
+}
+.header {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+#title {
+  font-size: 30px;
+}
+
+#left, #right {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headerColumn {
+  float: left;
+  width: 33.33%; 
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: auto;
+} 
+  
+#nationExists {
+    font-size: 20px;
+}
+
+.column {
+    float: left;
+    width: 50%;   
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: auto;
+} 
+
+
+
+.btnsProc {
+    text-align: center;
+    
+}
+
+#myTable {
+    float: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%
+}
+#myTable td, #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#myTable tr{
+    background-color: #f2f2f2;
+}
+
+#myTable tr:hover {
+    background-color: #ddd;
+}
+
+#myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
